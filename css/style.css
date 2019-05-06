@@ -253,24 +253,77 @@ header p{
 /* PROJETOS */
 .projetos{
     padding: 60px 0 120px 0;
-    margin: 220px 0 120px 0;
-    background: #1A1A1A;
-    box-shadow: 0px 0px 3px #707070;
+    margin: 120px 0 120px 0;
+    background: #111;
 }
 
 .projetos .t-1{ text-align: center;}
 
-.projetos .stick-slide{
+.projetos .item{ 
+   margin-bottom: 40px;
+    height: 360px;
+    border-radius: 5px;
+    background: #141414;
+    padding: 20px 20px 40px 20px;
     position: relative;
-    overflow: hidden;
-    width: 100%;
+    border: 1px solid rgba(255,255,255,.125);
+    box-shadow: rgb(112, 112, 112) 0px 0px 3px;
 }
 
-.stick-slide img{
+.projetos .item:hover{
+    background: #0055ff;
+    transition: .3s ease-in-out;
+}
+
+.projetos .item:hover .p-call a{
+    color: #fff;
+}
+
+.projetos .item img{ 
+    height: 240px;
+    width: 100%;
+    border-radius: 2px;
+    object-fit: cover;
+    object-position: center;
+    background: #fff;
+    margin-bottom: 20px;
+}
+
+
+.projetos .item h2{
+    font-size: 18px;
+    color: #fff;
+    padding-bottom: 6px;
+    border-bottom: 1px solid rgba(255,255,255,.125);
+    font-weight: 500;
+}
+
+
+.projetos .item .p-call a{ 
+    font-size: 14px; 
+    float: left; 
+    color: #1b89cc;
+    font-weight: 500;
+    margin-top: 14px;
+}
+
+
+.projetos .item .p-call a::before{
+    content: '';
     display: block;
-    height: 440px;
-    min-width: 700px;
-    margin: 0 auto;
+    float: left;
+    height: 10px;
+    width: 16px;
+    background: url(../img/bfr-p.svg) no-repeat;
+    margin: 4px 8px 4px 0px;
+}
+
+.projetos .item .p-call span{ 
+    margin-top: 16px; 
+    font-size: 12px;
+    float: right;
+    font-weight: 500;
+    color: rgba(255,255,255,.3);
 }
 
 .projetos p{

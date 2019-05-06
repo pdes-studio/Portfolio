@@ -7,7 +7,100 @@
 
 /*Estilo para smartphone*/
 @media only screen and (max-width: 767px) {
+    p{
+        font-size: 14px;
+    }
 
+    header{
+        height: 720px;
+        min-height: 400px;
+        background: url(../img/main-img-2.svg);
+        background-repeat: no-repeat;
+        background-size: 380px;
+        background-position: right 0;
+    }
 
+    header .t-1{
+        font-size: 36px;
+        text-align: center;
+        margin-top: 340px;
+    }
+    header p{
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .t-1{
+        font-size: 24px;
+        font-weight: bold;
+        text-transform: uppercase;
+        color: #fff;
+        margin-bottom: 12px;
+    }
+
+    .cta-1{
+        margin: 24px auto;
+        height: 42px;
+        padding: 12px 0px;
+    }
+
+    /* DESENVOLVIMENTO */
+
+    .desenvolvimento > p{
+        margin-bottom: 40px;
+    }
+
+    .recursos .item{
+        width: 90%;
+        height: 100px;
+        padding: 18px 30px;
+        margin-bottom: 24px;
+    }
+
+    .recursos .item img{
+        max-height: 60px;
+        width: 60px;
+    }
+
+    .recursos .info span{
+        font-size: 16px;
+    }
+
+    .recursos .item .bar{
+        height: 10px;
+        width: 220px;
+        margin: 8px 0px;
+    }
+
+    /* PROJETOS */
+
+    .projetos{
+        padding: 60px 0 60px 0;
+        margin: 60px 0 60px 0;
+    }
+
+    .stick-slide img{
+        height: auto;
+        min-width: 90%;
+        max-width: 90%;
+    }
+
+    /*  QUALIDADE  */
+    .qualidade{
+        padding: 60px 0px 0px 0px;
+        height: 800px;
+        min-height: 400px;
+        background: url(../img/qualidade-img.svg) no-repeat;
+        background-size: 400px;
+        background-position-y: 400px;
+        padding-right: 7.5%;
+    }
+
+    .qualidade .container{ float: none; width: 360px; padding-top: 0px;}
+
+    .qualidade .t-1, .qualidade .txt{
+        text-align: center;
+    }
+    
 
 }

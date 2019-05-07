@@ -62,7 +62,7 @@ header{
     height: 1000px;
     min-height: 1000px;
     padding: 0 5%;
-    background: url(../img/main-img-2.svg);
+    background: url(../img/main-img.svg);
     background-repeat: no-repeat;
     background-size: 830px;
     background-position: right 0;
@@ -387,7 +387,7 @@ header p{
 
     
     header{
-        background: url(../img/main-img-full.svg);
+        background: url(../img/main-img.svg);
         background-repeat: no-repeat;
         background-size: 1100px;
         background-position: right 0;

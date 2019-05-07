@@ -98,7 +98,7 @@
         padding-right: 7.5%;
     }
 
-    .qualidade .container{ float: none; width: 360px; padding-top: 0px;}
+    .qualidade .container{ float: none; width: 90%; padding-top: 0px;}
 
     .qualidade .t-1, .qualidade .txt{
         text-align: center;

@@ -14,18 +14,18 @@
     }
 
     header{
-        height: 720px;
+        height: 800px;
         min-height: 400px;
         background: url(../img/main-img-2.svg);
         background-repeat: no-repeat;
-        background-size: 380px;
+        background-size: 100%;
         background-position: right 0;
     }
 
     header .t-1{
         font-size: 36px;
         text-align: center;
-        margin-top: 340px;
+        margin-top: 400px;
     }
     header p{
         text-align: center;

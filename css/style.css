@@ -153,8 +153,8 @@ header p{
 }
 
 .recursos .item{
-    width: 400px;
-    height: 140px;
+    width: 300px;
+    height: 120px;
     box-shadow: 0px 0px 3px #707070;
     border-radius: 4px;
     background: #1A1A1A;
@@ -202,27 +202,30 @@ header p{
 
 .recursos .item img{ 
     display: block;
-    max-height: 90px;
-    width: 90px;
+    max-height: 80px;
+    width: 80px;
     float: left;
 }
 
 .recursos .info{
-   float: right;
+   /* float: right; */
 }
 
 .recursos .info span{
     font-size: 18px;
     color: #fff;
     font-weight: bold;
+    text-align: center;
+    display: block;
  }
 
  .recursos .info p{
      font-size: 15px;
-     opacity: .6
+     opacity: .6;
+     text-align: center;
  }
 
-.recursos .item .bar{
+/* .recursos .item .bar{
     height: 14px;
     width: 220px;
     background: #222;
@@ -242,7 +245,7 @@ header p{
     top: 0;
     background: #0055ff;
     box-shadow: 0px 0px 6px #0055ff;
-}
+} */
 
 /*  */
 

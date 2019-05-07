@@ -212,6 +212,7 @@ header p{
 }
 
 .recursos .info span{
+    margin-top: 8px;
     font-size: 18px;
     color: #fff;
     font-weight: bold;
@@ -417,6 +418,10 @@ header p{
         background: url(../img/qualidade-img.svg) no-repeat;
         background-size: 1000px;
         padding-right: 20%;
+    }
+
+    .qualidade p{
+        max-width: 90%;
     }
 
     /* CONTATO */
